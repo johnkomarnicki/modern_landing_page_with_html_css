@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+:root {
+  --green-gradient: linear-gradient(
+    to bottom right,
+    #33d35e,
+    #2ab6d9
+  );
+  --bright-green: #33d35e;
+  --dark-blue: #2d314d;
+  --light-gray: #9597a5;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--dark-blue);
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 64px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 64px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+p,
+span {
+  color: var(--light-gray);
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.btn {
+  background: var(--green-gradient);
+  border: none;
+  border-radius: 22px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 8px 34px;
+  transition: 300ms ease-in-out all;
+}
+
+.btn:hover {
+  opacity: 70%;
+}
