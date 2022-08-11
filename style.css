@@ -48,6 +48,10 @@ span {
   font-weight: 400;
 }
 
+.display-none {
+  display: none;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
